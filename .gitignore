@@ -1,3 +1,4 @@
-/.gitignore
-/.idea/
-/prepros.config
+.idea/
+.gitignore
+.idea/codeStyles/Project.xml
+prepros.config

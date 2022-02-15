@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94d09c15-e1cd-4ef2-a317-28a9d64538bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/cover/cover.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/intro/intro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/lead/lead.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/photo-grid/photo-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/places/places.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/page/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
@@ -67,6 +63,7 @@
       <workItem from="1643922531952" duration="721000" />
       <workItem from="1644441202786" duration="7271000" />
       <workItem from="1644935754245" duration="66000" />
+      <workItem from="1644935845488" duration="2010000" />
     </task>
     <servers />
   </component>
