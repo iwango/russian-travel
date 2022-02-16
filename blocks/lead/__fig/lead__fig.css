@@ -1,0 +1,14 @@
+.lead__fig {
+margin: 0 auto;
+}
+
+@media screen and (min-width: 769px){
+  .lead__fig {
+       margin: 0 48px;
+  }
+}
+@media screen and (min-width: 1024px){
+  .lead__fig {
+    margin: 0 148px;
+  }
+}
