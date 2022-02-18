@@ -5,14 +5,17 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
-
-@media screen and (min-width: 320px){
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .lead__fig-caption {
-    padding-left: 24px;
+    padding-left: calc(16px + (24 - 16) * (100vw - 320px) / 448);
   }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .lead__fig-caption {
+    padding-left: calc(24px + (0 - 24) * (100vw - 768px) / 256);
   }
-
-@media screen and (min-width: 769px){
+}
+@media screen and (min-width: 1024px){
   .lead__fig-caption {
     padding-left: 0;
   }

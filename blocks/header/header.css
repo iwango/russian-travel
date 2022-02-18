@@ -8,15 +8,37 @@
   padding-top: 16px;
 }
 
-@media screen and (min-width: 320px){
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .header {
-    margin: 0 24px 48px;
-    padding-top: 28px;
-    font-size: 24px;
+    margin: 0 calc(16px + (24 - 16) * (100vw - 320px) / 448) 48px;
+    font-size: calc(18px + (24 - 18) * (100vw - 320px) / 448);
+    line-height: calc(20px + (28 - 20) * (100vw - 320px) / 448);
   }
-
-}@media screen and (min-width: 768px){
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .header {
-    margin: 0 48px 48px;
+    margin: 0 calc(24px + (48 - 24) * (100vw - 768px) / 256) 48px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .header {
+    margin-bottom: calc(48px + (56 - 48) * (100vw - 1024px) / 256);
+  }
+}
+@media screen and (min-width: 768px ){
+  .header {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+@media screen and (min-width: 1024px ){
+  .header {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+@media screen and (min-width: 1280px ){
+  .header {
+    margin-bottom: 56px;
   }
 }
