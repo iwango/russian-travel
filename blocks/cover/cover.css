@@ -1,0 +1,12 @@
+.cover {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 100%;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+.cover:hover .cover__image {
+  cursor: pointer;
+  opacity: 0.3;
+}
