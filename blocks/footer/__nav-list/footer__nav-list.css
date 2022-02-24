@@ -1,0 +1,14 @@
+.footer__nav-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .footer__nav-list {
+    flex-direction: row;
+    align-items: end;
+  }
+}

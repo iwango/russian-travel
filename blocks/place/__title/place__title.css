@@ -24,12 +24,6 @@
     line-height: calc(46px + (76 - 46) * (100vw - 768px) / 256);
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .place__title {
-    font-size: calc(42px + (72 - 42) * (100vw - 768px) / 256);
-    line-height: calc(46px + (76 - 46) * (100vw - 768px) / 256);
-  }
-}
 @media screen and (min-width: 1024px){
   .place__title {
     font-size: 72px;
