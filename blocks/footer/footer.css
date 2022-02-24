@@ -14,12 +14,10 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .footer {
     margin: 0 calc(24px + (48 - 24) * (100vw - 768px) / 256);
-    padding-bottom: 48px;
   }
 }
 @media screen and (min-width: 1024px) {
   .footer {
     margin: 0 48px;
-    padding-bottom: 48px;
   }
 }
