@@ -1,6 +1,7 @@
 .header__lang-link {
   color: #fff;
   text-decoration: none;
+  vertical-align: 5px;
 }
 
 .header__lang-link:active {
