@@ -2,8 +2,12 @@
   color: #fff;
   text-decoration: none;
   vertical-align: 5px;
+  transition: 0.5s ease-in-out;
 }
-
+.header__lang-link:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
 .header__lang-link:active {
   text-decoration: underline;
 }

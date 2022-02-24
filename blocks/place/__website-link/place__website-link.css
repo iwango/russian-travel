@@ -2,6 +2,7 @@
   font-size: 18px;
   line-height: 22px;
   color: #fff;
+  transition: 0.5s ease-in-out;
 }
 .place__website-link:hover {
   cursor: pointer;

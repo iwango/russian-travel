@@ -1,15 +1,5 @@
 .cover {
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 100%;
-  align-items: center;
-  color: #fff;
-  text-decoration: none;
   margin-bottom: 64px;
-}
-.cover:hover .cover__image {
-  cursor: pointer;
-  opacity: 0.3;
 }
 @media screen and (min-width: 768px) {
   .cover {
