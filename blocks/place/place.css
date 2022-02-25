@@ -6,22 +6,21 @@
 .place:last-of-type {
   margin-bottom: 0;
 }
-@media screen and (max-width: 767px) {
-  .place {
-    grid-row-gap: 32px;
-  }
-}
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .place {
     margin-bottom: calc(50px + (72 - 50) * (100vw - 320px) / 448);
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
-    margin-bottom: calc(72px + (80 - 72) * (100vw - 768px) / 256);
+    margin-bottom: calc(72px + (80 - 72) * (100vw - 768px) / 255);
   }
 }
-
+@media screen and (max-width: 767px) {
+  .place {
+    grid-row-gap: 32px;
+  }
+}
 @media screen and (min-width: 768px) {
   .place {
     grid-template-columns: 340px 1fr;

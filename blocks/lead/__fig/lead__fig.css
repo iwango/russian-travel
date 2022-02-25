@@ -2,17 +2,16 @@
 margin: 0 auto;
   line-height: 0;
 }
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .lead__fig {
     margin: 0 calc(48 * (100vw - 768px) / 256);
   }
 }
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
   .lead__fig {
-    margin: 0 calc(48px + (148 - 48) * (100vw - 1024px) / 256);  }
+    margin: 0 calc(48px + (148 - 48) * (100vw - 1024px) / 255);  }
 }
-@media screen and (min-width: 1280px ){
+@media screen and (min-width: 1281px ){
   .lead__fig {
     margin: 0 148px;
   }

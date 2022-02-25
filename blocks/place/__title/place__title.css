@@ -4,18 +4,12 @@
   font-weight: 900;
   margin: 0 16px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .place__title {
-    margin: 0 0 48px;
-    letter-spacing: 0.93px; /*letter-spacing for pixel-perfect*/
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 768px) {
-  .place__title {
-    margin-left: calc(16px + (0 - 16) * (100vw - 320px) / 448);
-    margin-right: calc(16px + (0 - 16) * (100vw - 320px) / 448);
-    font-size: calc(32px + (42 - 32) * (100vw - 320px) / 448);
-    line-height: calc(35px + (46 - 35) * (100vw - 320px) / 448);
+    margin-left: calc(16px + (0 - 16) * (100vw - 320px) / 447);
+    margin-right: calc(16px + (0 - 16) * (100vw - 320px) / 447);
+    font-size: calc(32px + (42 - 32) * (100vw - 320px) / 447);
+    line-height: calc(35px + (46 - 35) * (100vw - 320px) / 447);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -24,7 +18,13 @@
     line-height: calc(46px + (76 - 46) * (100vw - 768px) / 256);
   }
 }
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 768px) {
+  .place__title {
+    margin: 0 0 48px;
+    letter-spacing: 0.93px; /*letter-spacing for pixel-perfect*/
+  }
+}
+@media screen and (min-width: 1025px){
   .place__title {
     font-size: 72px;
     line-height: 76px;

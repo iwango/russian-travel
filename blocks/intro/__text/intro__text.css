@@ -2,5 +2,5 @@
   font-size: 16px;
   line-height: 163%;
   margin: 0 0 33px;
-  letter-spacing: -0.14px;
+  letter-spacing: -0.14px; /*letter-spacing for pixel-perfect*/
 }

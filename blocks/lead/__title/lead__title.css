@@ -8,13 +8,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .lead__title {
-    max-width: calc(288px + (720 - 288) * (100vw - 320px) / 448);
+    max-width: calc(288px + (720 - 288) * (100vw - 320px) / 447);
   }
 }
-
 @media screen and (min-width: 768px) {
   .lead__title {
     max-width: 720px;

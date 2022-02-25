@@ -1,7 +1,7 @@
 .cover {
   margin-bottom: 64px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .cover {
     margin-bottom: 88px;
   }
@@ -11,7 +11,7 @@
     margin-bottom: calc(88px + (92 - 88) * (100vw - 768px) / 256);
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .cover {
     margin-bottom: 92px;
   }

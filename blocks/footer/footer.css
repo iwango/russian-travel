@@ -4,7 +4,7 @@
   margin: 0 16px;
   padding-bottom: 24px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .footer {
     flex-direction: row;
     justify-content: space-between;
@@ -16,7 +16,7 @@
     margin: 0 calc(24px + (48 - 24) * (100vw - 768px) / 256);
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .footer {
     margin: 0 48px;
   }
